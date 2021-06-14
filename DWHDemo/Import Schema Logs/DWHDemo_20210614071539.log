@@ -1,0 +1,86 @@
+14.06.2021 09:15:39	This log contains information about the import schema operation into project 'DWHDemo' on computer 'DESKTOP-KG8TDBL' by user 'lukast'.
+14.06.2021 09:15:39	Import of database schema has started.
+14.06.2021 09:15:49	Gathering database credentials
+14.06.2021 09:15:49	Gathering database options
+14.06.2021 09:15:49	Gathering generic database scoped configuration option
+14.06.2021 09:15:49	Gathering users
+14.06.2021 09:15:49	Gathering roles
+14.06.2021 09:15:49	Gathering application roles
+14.06.2021 09:15:49	Gathering role memberships
+14.06.2021 09:15:49	Gathering filegroups
+14.06.2021 09:15:49	Gathering full-text catalogs
+14.06.2021 09:15:49	Gathering assemblies
+14.06.2021 09:15:49	Gathering certificates
+14.06.2021 09:15:49	Gathering asymmetric keys
+14.06.2021 09:15:49	Gathering symmetric keys
+14.06.2021 09:15:49	Gathering encrypted symmetric keys
+14.06.2021 09:15:49	Gathering schemas
+14.06.2021 09:15:49	Gathering XML schema collections
+14.06.2021 09:15:49	Gathering user-defined data types
+14.06.2021 09:15:49	Gathering user-defined types
+14.06.2021 09:15:50	Gathering table types
+14.06.2021 09:15:50	Gathering unique keys for table types
+14.06.2021 09:15:50	Gathering primary keys for table types
+14.06.2021 09:15:50	Gathering indexes for table types
+14.06.2021 09:15:50	Gathering check constraints for table types
+14.06.2021 09:15:50	Gathering default constraints for table types
+14.06.2021 09:15:50	Gathering partition functions
+14.06.2021 09:15:50	Gathering partition schemes
+14.06.2021 09:15:50	Gathering functions
+14.06.2021 09:15:50	Gathering encrypted functions
+14.06.2021 09:15:50	Gathering aggregates
+14.06.2021 09:15:50	Gathering procedures
+14.06.2021 09:15:50	Gathering encrypted procedures
+14.06.2021 09:15:50	Gathering tables
+14.06.2021 09:15:50	Gathering primary keys
+14.06.2021 09:15:50	Gathering unique constraints
+14.06.2021 09:15:50	Gathering foreign keys
+14.06.2021 09:15:50	Gathering default constraints
+14.06.2021 09:15:50	Gathering check constraints
+14.06.2021 09:15:50	Gathering views
+14.06.2021 09:15:50	Gathering encrypted views
+14.06.2021 09:15:50	Gathering indexes
+14.06.2021 09:15:50	Gathering statistics
+14.06.2021 09:15:50	Gathering full-text index stoplists
+14.06.2021 09:15:50	Gathering search property lists
+14.06.2021 09:15:50	Gathering search properties
+14.06.2021 09:15:50	Gathering full-text indexes
+14.06.2021 09:15:50	Gathering column store indexes
+14.06.2021 09:15:50	Gathering spatial indexes
+14.06.2021 09:15:50	Gathering XML indexes
+14.06.2021 09:15:50	Gathering Selective XML indexes
+14.06.2021 09:15:50	Gathering encrypted triggers
+14.06.2021 09:15:50	Gathering triggers
+14.06.2021 09:15:50	Gathering encrypted and clr ddl triggers
+14.06.2021 09:15:50	Gathering ddl triggers
+14.06.2021 09:15:50	Creating edge constraints
+14.06.2021 09:15:50	Gathering synonyms
+14.06.2021 09:15:50	Gathering defaults
+14.06.2021 09:15:50	Gathering data constraint uddt bindings
+14.06.2021 09:15:50	Gathering rules
+14.06.2021 09:15:50	Gathering data constraint uddt bindings
+14.06.2021 09:15:50	Gathering message types
+14.06.2021 09:15:50	Gathering queues
+14.06.2021 09:15:50	Gathering contracts
+14.06.2021 09:15:50	Gathering services
+14.06.2021 09:15:50	Gathering event notifications
+14.06.2021 09:15:50	Gathering remote service bindings
+14.06.2021 09:15:50	Gathering broker priorities
+14.06.2021 09:15:50	Gathering signatures
+14.06.2021 09:15:50	Gathering data compression options
+14.06.2021 09:15:50	Gathering sequence types
+14.06.2021 09:15:50	Gathering security policies
+14.06.2021 09:15:50	Gather column encryption keys
+14.06.2021 09:15:50	Gathering column master keys
+14.06.2021 09:15:50	Gathering external data sources
+14.06.2021 09:15:50	Gathering external file formats
+14.06.2021 09:15:50	Gathering external tables
+14.06.2021 09:15:50	Gathering extended properties
+14.06.2021 09:15:50	Gathering credentials
+14.06.2021 09:15:50	Gathering logins
+14.06.2021 09:15:50	Gathering server audits
+14.06.2021 09:15:51	Scanning project for duplicate elements
+14.06.2021 09:15:51	Finished duplicate element processing
+14.06.2021 09:15:52	Finished importing database.
+14.06.2021 09:15:52	A summary of the import was saved to the following location: C:\Users\lukast\Documents\BusinessIntelligenceDemo\BIDemo\DWHDemo\Import Schema Logs\DWHDemo_20210614071539.log
+14.06.2021 09:15:52	Click Finish to continue...

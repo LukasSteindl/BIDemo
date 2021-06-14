@@ -1,0 +1,171 @@
+{
+  "name": "SemanticModel",
+  "compatibilityLevel": 1500,
+  "model": {
+    "culture": "de-DE",
+    "dataSources": [
+      {
+        "name": "SqlServer localhost Demo",
+        "connectionString": "Provider=SQLNCLI11;Data Source=localhost;Initial Catalog=Demo;Integrated Security=SSPI;Persist Security Info=false",
+        "impersonationMode": "impersonateServiceAccount",
+        "annotations": [
+          {
+            "name": "ConnectionEditUISource",
+            "value": "SqlServer"
+          }
+        ]
+      }
+    ],
+    "tables": [
+      {
+        "name": "CarOrder",
+        "columns": [
+          {
+            "name": "OrderId",
+            "dataType": "int64",
+            "sourceColumn": "OrderId",
+            "sourceProviderType": "Integer"
+          },
+          {
+            "name": "Cartype",
+            "dataType": "string",
+            "sourceColumn": "Cartype",
+            "sourceProviderType": "Char"
+          },
+          {
+            "name": "OrderDate",
+            "dataType": "dateTime",
+            "sourceColumn": "OrderDate",
+            "formatString": "General Date",
+            "sourceProviderType": "DBTimeStamp"
+          },
+          {
+            "name": "volume",
+            "dataType": "int64",
+            "sourceColumn": "volume",
+            "sourceProviderType": "Integer"
+          },
+          {
+            "name": "data",
+            "dataType": "string",
+            "sourceColumn": "data",
+            "sourceProviderType": "141"
+          },
+          {
+            "name": "milage",
+            "dataType": "int64",
+            "sourceColumn": "milage",
+            "sourceProviderType": "Integer"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "CarOrder",
+            "dataView": "full",
+            "source": {
+              "type": "query",
+              "query": " SELECT [dbo].[CarOrder].* FROM [dbo].[CarOrder] ",
+              "dataSource": "SqlServer localhost Demo"
+            }
+          }
+        ],
+        "measures": [
+          {
+            "name": "Sum of volume",
+            "expression": "SUM([volume])"
+          }
+        ],
+        "annotations": [
+          {
+            "name": "_TM_ExtProp_QueryDefinition",
+            "value": " SELECT [dbo].[CarOrder].* FROM [dbo].[CarOrder] "
+          },
+          {
+            "name": "_TM_ExtProp_DbTableName",
+            "value": "CarOrder"
+          },
+          {
+            "name": "_TM_ExtProp_DbSchemaName",
+            "value": "dbo"
+          }
+        ]
+      },
+      {
+        "name": "DimKunde",
+        "columns": [
+          {
+            "name": "Id",
+            "dataType": "int64",
+            "sourceColumn": "Id",
+            "sourceProviderType": "Integer"
+          },
+          {
+            "name": "Wohnort",
+            "dataType": "string",
+            "sourceColumn": "Wohnort",
+            "sourceProviderType": "WChar"
+          },
+          {
+            "name": "GueltigkeitsDatum",
+            "dataType": "dateTime",
+            "sourceColumn": "GueltigkeitsDatum",
+            "formatString": "General Date",
+            "sourceProviderType": "DBTimeStamp"
+          },
+          {
+            "name": "KontoNummer",
+            "dataType": "int64",
+            "sourceColumn": "KontoNummer",
+            "sourceProviderType": "Integer"
+          },
+          {
+            "name": "SysStart",
+            "dataType": "dateTime",
+            "sourceColumn": "SysStart",
+            "formatString": "General Date",
+            "sourceProviderType": "DBTimeStamp"
+          },
+          {
+            "name": "SysEnd",
+            "dataType": "dateTime",
+            "sourceColumn": "SysEnd",
+            "formatString": "General Date",
+            "sourceProviderType": "DBTimeStamp"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "DimKunde",
+            "dataView": "full",
+            "source": {
+              "type": "query",
+              "query": " SELECT [dbo].[DimKunde].* FROM [dbo].[DimKunde] ",
+              "dataSource": "SqlServer localhost Demo"
+            }
+          }
+        ],
+        "annotations": [
+          {
+            "name": "_TM_ExtProp_QueryDefinition",
+            "value": " SELECT [dbo].[DimKunde].* FROM [dbo].[DimKunde] "
+          },
+          {
+            "name": "_TM_ExtProp_DbTableName",
+            "value": "DimKunde"
+          },
+          {
+            "name": "_TM_ExtProp_DbSchemaName",
+            "value": "dbo"
+          }
+        ]
+      }
+    ],
+    "annotations": [
+      {
+        "name": "ClientCompatibilityLevel",
+        "value": "600"
+      }
+    ]
+  },
+  "id": "SemanticModel"
+}
