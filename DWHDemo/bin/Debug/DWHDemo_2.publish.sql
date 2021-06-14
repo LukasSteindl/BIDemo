@@ -40,27 +40,11 @@ USE [$(DatabaseName)];
 
 
 GO
-<<<<<<< HEAD
-=======
-/*
-The column [dbo].[CarOrder].[example2] is being dropped, data loss could occur.
-*/
-
-IF EXISTS (select top 1 1 from [dbo].[CarOrder])
-    RAISERROR (N'Rows were detected. The schema update is terminating because data loss might occur.', 16, 127) WITH NOWAIT
-
-GO
->>>>>>> hotfix
 PRINT N'Altering Table [dbo].[CarOrder]...';
 
 
 GO
-<<<<<<< HEAD
-ALTER TABLE [dbo].[CarOrder]
-    ADD [example2] NCHAR (10) NULL;
-=======
 ALTER TABLE [dbo].[CarOrder] DROP COLUMN [example2];
->>>>>>> hotfix
 
 
 GO

@@ -6,20 +6,13 @@
      Clustered indexes that will be created
        None
      Possible data issues
-<<<<<<< HEAD
-       None
-=======
        The column [dbo].[CarOrder].[example2] is being dropped, data loss could occur.
->>>>>>> hotfix
 
 ** User actions
      Alter
        [dbo].[CarOrder] (Table)
 
 ** Supporting actions
-<<<<<<< HEAD
-=======
 
 The column [dbo].[CarOrder].[example2] is being dropped, data loss could occur.
 
->>>>>>> hotfix
