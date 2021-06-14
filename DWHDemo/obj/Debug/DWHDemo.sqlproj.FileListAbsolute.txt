@@ -14,3 +14,7 @@ C:\Users\lukast\Documents\BIDemo\DWHDemo\bin\Debug\DWHDemo.pdb
 C:\Users\lukast\Documents\BIDemo\DWHDemo\obj\Debug\DWHDemo.sqlprojAssemblyReference.cache
 C:\Users\lukast\Documents\BIDemo\DWHDemo\obj\Debug\DWHDemo.dll
 C:\Users\lukast\Documents\BIDemo\DWHDemo\obj\Debug\DWHDemo.pdb
+C:\Users\lukast\Documents\BIDemo\DWHDemo\obj\Debug\Model.xml
+C:\Users\lukast\Documents\BIDemo\DWHDemo\obj\Debug\refactor.xml
+C:\Users\lukast\Documents\BIDemo\DWHDemo\obj\Debug\postdeploy.sql
+C:\Users\lukast\Documents\BIDemo\DWHDemo\obj\Debug\predeploy.sql

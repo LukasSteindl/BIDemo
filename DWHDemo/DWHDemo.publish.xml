@@ -2,9 +2,9 @@
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <IncludeCompositeObjects>True</IncludeCompositeObjects>
-    <TargetDatabaseName>Demo</TargetDatabaseName>
+    <TargetDatabaseName>bisqldb</TargetDatabaseName>
     <DeployScriptFileName>DWHDemo.sql</DeployScriptFileName>
-    <TargetConnectionString>Data Source=localhost;Integrated Security=True;Persist Security Info=False;Pooling=False;MultipleActiveResultSets=False;Connect Timeout=60;Encrypt=False;TrustServerCertificate=False</TargetConnectionString>
+    <TargetConnectionString>Data Source=bisqlserver23.database.windows.net;Persist Security Info=False;User ID=sqladmin;Pooling=False;MultipleActiveResultSets=False;Connect Timeout=60;Encrypt=False;TrustServerCertificate=False</TargetConnectionString>
     <ProfileVersionNumber>1</ProfileVersionNumber>
     <BlockOnPossibleDataLoss>False</BlockOnPossibleDataLoss>
   </PropertyGroup>

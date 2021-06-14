@@ -6,7 +6,7 @@
     "dataSources": [
       {
         "name": "SqlServer localhost Demo",
-        "connectionString": "Provider=SQLNCLI11;Data Source=localhost;Initial Catalog=Demo;Integrated Security=SSPI;Persist Security Info=false",
+        "connectionString": "Provider=SQLNCLI11;Data Source=bisqlserver23.database.windows.net;Initial Catalog=bisqldb;Persist Security Info=false;User ID=sqladmin",
         "impersonationMode": "impersonateServiceAccount",
         "annotations": [
           {
@@ -73,6 +73,10 @@
           {
             "name": "Sum of volume",
             "expression": "SUM([volume])"
+          },
+          {
+            "name": "CurrentUser",
+            "expression": "USERNAME()"
           }
         ],
         "annotations": [
@@ -156,6 +160,25 @@
           {
             "name": "_TM_ExtProp_DbSchemaName",
             "value": "dbo"
+          }
+        ]
+      }
+    ],
+    "roles": [
+      {
+        "name": "Reader",
+        "modelPermission": "read",
+        "members": [
+          {
+            "memberName": "lukassteindl@outlook.com",
+            "memberId": "lukassteindl@outlook.com",
+            "identityProvider": "AzureAD"
+          }
+        ],
+        "tablePermissions": [
+          {
+            "name": "CarOrder",
+            "filterExpression": "IF(AND(USERNAME() = \"lukassteindl@outlook.com\", CarOrder[Cartype] = \"BMW 5\"),TRUE,FALSE) "
           }
         ]
       }

@@ -12,12 +12,12 @@
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Development' ">
     <OutputPath>bin\</OutputPath>
-    <DeploymentServerName>localhost</DeploymentServerName>
+    <DeploymentServerName>asazure://westeurope.asazure.windows.net/bidemo</DeploymentServerName>
     <DeploymentServerEdition>Developer</DeploymentServerEdition>
     <DeploymentServerVersion>Unknown</DeploymentServerVersion>
     <DeploymentServerDatabase>TabularDemo</DeploymentServerDatabase>
     <DeploymentServerCubeName>Model</DeploymentServerCubeName>
-    <DeploymentOptionProcessing>Default</DeploymentOptionProcessing>
+    <DeploymentOptionProcessing>Full</DeploymentOptionProcessing>
     <DeploymentOptionTransactionalDeployment>False</DeploymentOptionTransactionalDeployment>
     <DeploymentOptionADALCache>Default</DeploymentOptionADALCache>
     <DeploymentOptionDirectQueryMode>InMemory</DeploymentOptionDirectQueryMode>
