@@ -5,6 +5,7 @@
     [volume]    INT           NULL,
     [data]      XML           NULL,
     [milage] int null,
+    [example2] NCHAR(10) NULL, 
     PRIMARY KEY CLUSTERED ([OrderId] ASC)
 );
 
