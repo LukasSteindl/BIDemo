@@ -8,3 +8,9 @@ C:\Users\lukast\Documents\BusinessIntelligenceDemo\BIDemo\DWHDemo\obj\Debug\post
 C:\Users\lukast\Documents\BusinessIntelligenceDemo\BIDemo\DWHDemo\obj\Debug\predeploy.sql
 C:\Users\lukast\Documents\BusinessIntelligenceDemo\BIDemo\DWHDemo\obj\Debug\DWHDemo.dll
 C:\Users\lukast\Documents\BusinessIntelligenceDemo\BIDemo\DWHDemo\obj\Debug\DWHDemo.pdb
+C:\Users\lukast\Documents\BIDemo\DWHDemo\bin\Debug\DWHDemo.dacpac
+C:\Users\lukast\Documents\BIDemo\DWHDemo\bin\Debug\DWHDemo.dll
+C:\Users\lukast\Documents\BIDemo\DWHDemo\bin\Debug\DWHDemo.pdb
+C:\Users\lukast\Documents\BIDemo\DWHDemo\obj\Debug\DWHDemo.sqlprojAssemblyReference.cache
+C:\Users\lukast\Documents\BIDemo\DWHDemo\obj\Debug\DWHDemo.dll
+C:\Users\lukast\Documents\BIDemo\DWHDemo\obj\Debug\DWHDemo.pdb
